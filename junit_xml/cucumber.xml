@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="3" time="86.948">
+<testcase classname="Login Feature" name="Successful login with valid credentials" time="34.62">
+<system-out><![CDATA[Given I want to open chrome browser.........................................passed
+And User opens URL "https://admin-demo.nopcommerce.com/login"...............passed
+When User enters Email as "admin@yourstore.com" and password as "admin".....passed
+And Click on login button...................................................passed
+Then Page title should be "Dashboard / nopCommerce administration"..........passed
+When User clicks on logout link.............................................passed
+When User clicks on logout link.............................................passed
+Then Page title should be "Your store. Login"...............................passed
+And Close the browser.......................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Login Feature" name="Login Data Drievn Test" time="25.42">
+<system-out><![CDATA[Given I want to open chrome browser.........................................passed
+And User opens URL "https://admin-demo.nopcommerce.com/login"...............passed
+When User enters Email as "admin@yourstore.com" and password as "admin".....passed
+And Click on login button...................................................passed
+Then Page title should be "Dashboard / nopCommerce administration"..........passed
+When User clicks on logout link.............................................passed
+When User clicks on logout link.............................................passed
+Then Page title should be "Your store. Login"...............................passed
+And Close the browser.......................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Login Feature" name="Login Data Drievn Test 2" time="26.613">
+<system-out><![CDATA[Given I want to open chrome browser.........................................passed
+And User opens URL "https://admin-demo.nopcommerce.com/login"...............passed
+When User enters Email as "admin123@yourstore.com" and password as "admin"..passed
+And Click on login button...................................................passed
+Then Page title should be "Dashboard / nopCommerce administration"..........passed
+When User clicks on logout link.............................................passed
+When User clicks on logout link.............................................passed
+Then Page title should be "Your store. Login"...............................passed
+And Close the browser.......................................................passed
+]]></system-out>
+</testcase>
+</testsuite>
